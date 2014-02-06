@@ -1,1 +1,21 @@
-Sid -- yoyo
+---
+layout: default
+---
+
+<div class="large-9 columns">
+	<div class="row">
+		<div class="large-10 columns">
+			<header class="home-header">
+				<h4>Essays</h4>
+			</header>
+			<ul class="postlist tk-freight-sans-pro">
+				{% for post in site.posts %}
+				<li>
+					<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+					<span class="wordcount">{{ post.wordcount }}, <i>{{ post.readtime }}</i></span>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

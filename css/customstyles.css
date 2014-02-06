@@ -1,0 +1,246 @@
+.header {
+	height: 120px;
+}
+
+.about {
+	text-align: center;
+}
+
+.about h4 {
+	padding: 10px 0 0 0;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	color: #585858;
+	font: 1em "freight-sans-pro", Helvetica, sans-serif;
+}
+
+.about h6 {
+	color: #8a8a8a;
+	font: 600 0.7em "freight-sans-pro", Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0 10px 0 10px;
+}
+
+.avatar {
+	background-image: url('/static/img/beach-small.jpg');
+	background-size: 100% auto;
+	display: block;
+	width: 150px;
+	height: 150px;
+
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	margin: 0 auto;
+}
+
+.social-links {
+	font-size: 1.2em;
+	margin: 0 auto;
+	display: table;
+	padding: 30px 0 0 0;
+}
+
+.social-links li {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 8px 0 8px;
+}
+
+.social-links a {
+	color: #000;
+}
+
+.social-links li a:hover {
+	color: #2ba6cb;
+}
+
+article p {
+	font: 1.2em/1.6em 'adobe-caslon-pro', serif;
+}
+
+.post-body {
+	padding: 20px 0 0 0;
+}
+
+.post-body ol, .post-body ul {
+	font: 1.2em/1.6em 'adobe-caslon-pro', serif;
+}
+
+
+h3 {
+	font-size: 2.6em;
+}
+
+.postfooter li {
+	padding-right: 10px;
+}
+
+.postfooter a {
+	color: #000;
+}
+
+.postfooter a:hover {
+	color: #8a8a8a;
+}
+
+.postfooter h4 {
+	font: 0.8em "freight-sans-pro", Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #000;
+}
+
+.postlist {
+	list-style: none;
+	padding: 0 0 30px 0;
+}
+
+.postlist h3 {
+	font: 700 2em "freight-sans-pro", Helvetica, sans-serif;
+	margin: 30px 0 0 0;
+}
+
+.postlist a {
+	color: #2E2E2E;
+	display: block;
+}
+
+.wordcount {
+	display: inline-block;
+	margin: 0 0 0 0px;
+	color: #8a8a8a;
+}
+
+ul.hyphen-list {
+	list-style: none;
+}
+
+ul.hyphen-list li {
+	margin-top: 10px;
+}
+
+img {
+	padding: 10px 5px;
+	border: 1px solid #ccc;
+}
+
+div.img-with-caption h5 {
+	font-weight: normal;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+
+.quote {
+	font: normal 0.7em 'freight-sans-pro', Helvetica, sans-serif;
+	color: #8a8a8a;
+}
+
+.home-header h4 {
+	font: 400 1.6em/1.6em 'adobe-caslon-pro', serif;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 320px) {
+	.post-header h3 {
+		font-size: 1.6em;
+	}
+
+	.post-body p, .post-body ol, .post-body ul {
+		font-size: 1.15em;
+		line-height: 1.5em;
+	}
+
+	.main, .header {
+		padding: 0 30px 0 20px;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.postlist h3 {
+		font-size: 1.6em;
+	}
+
+	.home-header h4 {
+		font-size: 1.4em;
+	}
+
+}
+
+@media only screen and (min-width: 480px) {
+	.post-header h3 {
+		font-size: 1.8em;
+	}
+
+	.post-body p, .post-body ol, .post-body ul {
+		font-size: 1.2em;
+		line-height: 1.6em;
+	}
+
+	.main, .header {
+		padding: 0 25px 0 20px;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.postlist h3 {
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.post-header h3 {
+		font-size: 2.2em;
+	}
+
+	.post-body p, .post-body ol, .post-body ul {
+		font-size: 1.3em;
+		line-height: 1.6em;
+	}
+
+	.main, .header {
+		padding: 0 25px 0 20px;
+	}
+
+	.header {
+		display: block;
+	}
+
+	.postlist h3 {
+		font-size: 2em;
+	}
+
+	.home-header h4 {
+		font-size: 1.6em;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.post-header h3 {
+		font-size: 2.6em;
+	}
+
+	.post-body p, .post-body ol, .post-body ul {
+		font-size: 1.35em;
+		line-height: 1.6em;
+	}
+
+	.main, .header {
+		padding: 0 20px 0 20px;
+	}
+
+	.header {
+		display: block;
+	}
+
+	.postlist h3 {
+		font-size: 2em;
+	}
+}
+
