@@ -1,90 +1,30 @@
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+---
+layout: default
+---
 
-<head>
-	<meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-    <meta property="og:image" content="http://www.sidjha.com/blog/wp-content/themes/septembertheme/images/square_site_image.png" />
-<meta property="og:site_name" content="Siddharth Jha" />
-  <title>{{ page.title }} by Siddharth Jha</title>
+<div class="large-9 columns">
+	<div class="row">
+		<div class="large-11 columns">
 
-  <link rel="stylesheet" href="/css/normalize.css" />
-  
-  <link rel="stylesheet" href="/css/app.css" />
-  <link rel="stylesheet" href="/css/customstyles.css" />
-  <link rel="stylesheet" href="/css/social_foundicons.css" />
-  <link rel="stylesheet" href="/css/general_foundicons.css" />
-  <link rel="icon" type="image/png" href="/img/favicon.png">
+			<article>
+				<header class="post-header">
+					<h3>{{ page.title }}</h3>
+				</header>
 
-  <script src="/js/vendor/custom.modernizr.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/cbu0xzl.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
-<body>
+				<div class="post-body">
+					{{ content }}
+				</div>
+			</article>
 
-	<div class="row header">
-		<div class="large-12 columns">
-			<h2></h2>
 		</div>
 	</div>
 
-	<div class="row main">
-
-		<div class="large-9 columns">
-			<div class="row">
-				<div class="large-11 columns">
-
-					<article>
-						<header class="post-header">
-							<h3>{{ page.title }}</h3>
-						</header>
-
-						<div class="post-body">
-							{{ content }}
-						</div>
-					</article>
-
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="large-4 columns">
-					<ul class="inline-list postfooter">
-					  <li><h4><a href="/">Home</a></h4></li>
-					  <li><h4><a target="_blank" href="https://twitter.com/share" class="twitter-share-button" data-via="sidjha">Retweet</a></h4></li>
-					</ul>
-				</div>
-			</div>
+	<div class="row">
+		<div class="large-4 columns">
+			<ul class="inline-list postfooter">
+			  <li><h4><a href="/">Home</a></h4></li>
+			  <li><h4><a target="_blank" href="https://twitter.com/share" class="twitter-share-button" data-via="sidjha">Retweet</a></h4></li>
+			</ul>
 		</div>
-
-		<div class="large-3 columns">
-			<hgroup class="about">
-				<a href="/" class="avatar"></a>
-				<h4>Siddharth Jha</h4>
-				<h6>Entrepreneur. Explorer.
-				Partner at <a href="http://designbyroti.com">roti</a>.</h6>
-				<ul class="inline-list social-links">
-					<li><a href="http://twitter.com/sidjha"><i class="social foundicon-twitter"></i></a></li>
-					<li><a href="mailto:sid@sidjha.com"><i class="general foundicon-mail"></i></a></li>
-					<li><a href="http://ca.linkedin.com/in/ssjha"><i class="social foundicon-linkedin"></i></a></li>
-					<li><a href="http://instagram.com/sidjha"><i class="social foundicon-instagram"></i></a></li>
-				</ul>
-			</hgroup>
-		</div>
-
 	</div>
-
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? '/js/vendor/zepto' : '/js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="/js/foundation/foundation.js"></script>
-  
-  <script>
-    $(document).foundation();
-  </script>
-</body>
-</html>
+</div>

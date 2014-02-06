@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Execution > ideas
+word_count: 614
+read_time: 3
 ---
 
 If you have a lot of new radical ideas, you may be really cool and smart but that doesn’t necessary mean you’ll be successful. Ideas are overrated. All that matters in the end is how you execute your ideas. That familiar feeling of having a million (or billion)-dollar idea and getting super psyched about it, and envisioning all sorts of things for your product is almost always deceiving. I’m not saying there aren’t exceptions to the rule. But if you just keep thinking about the idea and don’t convert it into tangible things that work, then it’s not really a big deal. Execution garners respect. It should also bring you down to reality. You might even realize that some ideas that sound good may turn out to be really shitty when you execute them. You may have put yourself on cloud nine thinking you came up with the idea for the next big thing, just wait and realize that it’s just an idea so far. No one can see it, it’s not useful for anyone, there’s no market value of an idea. A lot of highly ambitious people fall in this idea trap. Some even use big or really small words suffixed with whole decimal numbers to describe them, like “Web 3.0”, or like “next-generation” or “innovative” — but it’s not any of those things until it’s actually built and others think it can actually be described in that way when they see how it actually works.

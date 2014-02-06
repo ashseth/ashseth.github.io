@@ -23,7 +23,7 @@
 }
 
 .avatar {
-	background-image: url('/static/img/beach-small.jpg');
+	background-image: url('/img/beach-small.jpg');
 	background-size: 100% auto;
 	display: block;
 	width: 150px;
@@ -66,6 +66,7 @@ article p {
 
 .post-body ol, .post-body ul {
 	font: 1.2em/1.6em 'adobe-caslon-pro', serif;
+//	list-style-image: url('/img/minus.png');
 }
 
 
@@ -130,6 +131,7 @@ div.img-with-caption h5 {
 	font-weight: normal;
 	font-size: 0.9em;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 
