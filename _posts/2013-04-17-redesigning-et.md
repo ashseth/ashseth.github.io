@@ -6,8 +6,10 @@ read_time: 13
 ---
 
 # Background
+
 ## Life as a kid
 I used to be an odd kid. Growing up in New Delhi, I always enjoyed reading the newspapers. Not just the page 3 stuff, but everything - the main stories, special columns, international news, you name it. On weekdays, I wouldn't be able to read in the morning since school started at 7:30am but I would come home around 2pm and it was the first thing I always did - read The Times of India (TOI) and The Economic Times (ET). Once every week, they'd come with special magazines like ET's Brand Equity and TOI's Sunday Times and those were awesome days. Apart from playing cricket, watching Star Sports and playing simulation video games, reading the newspapers would be one of my favourite things to do every day. I can't remember when or how I picked it up but it was definitely an odd thing to do at my age. When I think about it now, I credit a lot of my interest today in world affairs and news to this habit. Also, what's interesting is that it wasn't just the content I was interested in, but the disciplined layouts, variations in font sizes and weights, the colours and all the other aspects of the presentation. I think ET generally did a better job than TOI in presentation. As I approached my early teens, I got hooked to TOI's Delhi Times - the page 3 stuff, mostly for the Bollywood gossip and Heidi Klum pictures. But I wasn't inspired by its design - it was cluttered, lacked discipline and never made me feel nearly as good as reading ET would.
+
 <div class="img-with-caption">
   <img src="/img/et.jpg" alt="The Economic Times, paper version">
   <h5>The Economic Times, paper version</h5>
@@ -15,12 +17,12 @@ I used to be an odd kid. Growing up in New Delhi, I always enjoyed reading the n
 
 
 ## Today
-
 Fast forward 15 years. I don't read newspapers anymore. Last time I read a newspaper in print was most definitely at an airport. Web and Twitter have made this a pretty widespread phenomenon. I'm still very interested in reading ET and TOI, but  I don't ever end up spending more than a couple of minutes on their digital counterparts. Being on the <a href="http://timesofindia.com">timesofindia.com</a> feels akin to being at a railway station during a riot. Stuff just comes flying at you from all corners of the screen. No I don't want a new ICICI credit card or travel insurance or a profile on shaadi.com. Neither do I want to read about Sunny Leone's new energy drink.
 
 ## The DailyMail.co.uk effect
-The digital experiences of some of India's foremost news publications (especially timesofindia.com) have turned into tabloids. Compromising content quality and brand value in favour of 'spicy content' to get high click-through rates is a terrible idea. On top of that, placing obtrusive ads left, right and centre keeps readers like me far away on publications that do a much better job of presenting high-quality content with a decent design sense (<a href="http://qz.com">Quartz</a>, <a href="http://ft.com">FT</a>, as well as <a href="http://nytimes.com">NYT</a> to some extent). 
-	<div class="img-with-caption">
+The digital experiences of some of India's foremost news publications (especially timesofindia.com) have turned into tabloids. Compromising content quality and brand value in favour of 'spicy content' to get high click-through rates is a terrible idea. On top of that, placing obtrusive ads left, right and centre keeps readers like me far away on publications that do a much better job of presenting high-quality content with a decent design sense (<a href="http://qz.com">Quartz</a>, <a href="http://ft.com">FT</a>, as well as <a href="http://nytimes.com">NYT</a> to some extent).
+
+<div class="img-with-caption">
   <img src="/img/dailymail.png" alt="The Daily Mail">
   <h5>The <a href="http://dailymail.co.uk">dailymail.co.uk</a> is a tabloid. Tabloids purposely seem to exhibit poor design sense.</h5>
 </div>
@@ -28,6 +30,7 @@ The digital experiences of some of India's foremost news publications (especiall
 However, apart from venting a tad bit about the state of online journalism in India, the purpose of this post is to share a <a href="http://etredesign.herokuapp.com">design I've created for The Economic Times</a>. I re-imagined what I'd want a digital ET to look like and created a couple of HTML/CSS mockups. Now I'm going to briefly share my design process that went into creating it. 
 
 # The Design Process
+
 ## Content first, then design
 
 The precursor to any good design is having a good sense of the content structure. Content comes first. For ET, I came up with a list of major sections a typical reader in 2013 would be interested in: Markets, Technology, Finance, Economy, Columns, World, Media, Specials (like Brand Equity), editor blogs, popular articles, breaking news, and detailed stories. 
@@ -68,11 +71,13 @@ I was pretty happy with what I had so far - I knew what I wanted. Usually, this 
 - Flat design, HTML5 embedded videos, big HD images, a responsive layout with a hamburger menu, and some Helvetification (actually, Helvetica for me has been dead for a while. Proxima Nova is in) here and there would add the modern into the design and make it look all 2013.
 
 # The mockups
+
 ## Straight to HTML/CSS
 
 By this point, I was getting pretty impatient and I just wanted to go ahead and convert all these specs into markup. Since I was short on time - I only allocated one day for this entire redesign - I decided to hit up my favourite text editor Sublime Text 2. Yes, I skipped Photoshop. The truth of the matter is that I'm way faster at HTML and CSS than Photoshop. It all comes down to what you're most comfortable with and if you're pretty fast at Photoshop or Fireworks or your favourite mockup tool, then by all means work in that first. But personally, I find that the control that HTML, CSS and JS give you is unmatched by any mockup tool out there. In addition, strategies such as bottom-up writing of media queries (as opposed to making the site responsive <i>after</i> finishing the desktop version), and hacking in Chrome Dev Tools let you test out a variety of design concepts very quickly.
 
 From then on, it was simply iterating with frequent glances at the design direction notes.
+
 <div class="img-with-caption">
   <img src="http://etredesign.herokuapp.com/static/img/et-redesign.png" alt="The redesign">
   <h5>My redesign of The Economic Times. You can access it at <a href="http://etredesign.herokuapp.com">etredesign.herokuapp.com</a></h5>
@@ -88,6 +93,7 @@ I picked out 6 of the topics in the section list and made it the major sections 
 I linked the major sections up at the top. Under each section in the top nav bar, there is a link to the main news article from that section. This is an effort to reduce the number of clicks the reader has to perform in order to get to the content - the backbone of the site. I like to think of the homepage and section page of any news site as layers hiding the content of news articles. The lesser the number of steps to the content, the better. This way of thinking stems from Bret Victor's <a href="http://worrydream.com/MagicInk/">landmark paper</a> on user interfaces (that I read in its 73-page entirety - it's like the mother of UI essays and I recommend it to anyone interested in user experiences). 
 
 My friend <a href="http://twitter.com/aareet">@aareet</a> pointed out that the top nav bar could be fixed as you scroll even in the non-mobile view. Realized that made a lot of sense to maintain consistent behaviour with the mobile layout. It literally took 2 mins and 5 lines of jQuery to test this in Chrome Dev Tools. 
+
 <div class="img-with-caption">
   <img src="/img/etredesign-1.png" alt="Scrolling navbar">
   <h5>A scrolling navbar was a 2-min hack in Chrome Dev Tools</h5>
@@ -104,6 +110,7 @@ I aligned the section header to the right in the section-view to create some whi
 I went with a sidebar for the indices and stock quotes I wanted present site-wide (except on the article pages). This also creates a fair amount of real estate for ad spots - necessary for a newspaper publication. The idea is that these numbers would update in real-time. (It would be pretty cool to implement some rolling animation to update only single digits like the "Arrived" and "Boarding" in flight status boards at airports).
 
 The sidebar goes away at screen-widths below 768px, adhering to the norms of good responsive design. 
+
 <div class="img-with-caption">
   <img src="/img/etredesign-3.png" alt="The sidebar goes away in the mobile layout">
   <h5>The sidebar goes away in the mobile layout</h5>
@@ -120,13 +127,13 @@ If you notice, every article link on the page contains category information righ
 
 ## Article
 In the article-view, I wanted to draw focus to the article headline, image and content. So I made the section-header significantly smaller and got rid of the left sidebar. I tried breadcrumbs but that seemed redundant (Home > Technology > Article headline) - both the homepage and section page can be reached by just clicking the appropriate headers. I placed the right sidebar next to the article. The idea is to have related content in that (like related news articles, videos and other stuff) as well as a banner ad.
+
 <div class="img-with-caption">
   <img src="/img/etredesign-2.png" alt="Article-view">
   <h5>Article-view of the ET redesign, <a href="http://etredesign.herokuapp.com/article">etredesign.herokuapp.com/article</a></h5>
 </div>
 
 ## Note to self: Take screenshots continuously
-
 That's it! One thing I forgot to do was take screenshots of every version of the evolving design - I'll make sure to do that for my next project so that I have a visual reference for different design ideas I try and it would definitely make for a better blog post.
 
 
